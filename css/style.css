@@ -1,0 +1,93 @@
+.affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .navbar {
+      margin-bottom: 0px;
+	
+  }
+
+  .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+  body{
+  position: relative;
+  }
+  #home {padding-top:50px;background-color: #e3e3e3;}
+  
+   
+  #services {padding-top:100px; background-color: white;}
+  
+  #clrforw {padding-top:50px; background-color: #e3e3e3;}
+  #transit {padding-top:50px; background-color: #eeeeee;}
+  #others {padding-top:50px;background-color: #e3e3e3;}
+
+  
+  #contactus {padding-top:100px; background-color: white;}
+  
+  #contactInfo {padding-top:50px;background-color: #eeeeee;}
+  #location {padding-top:50px;background-color: #e3e3e3;}
+ 
+  #aboutus {padding-top:100px; background-color: white}  
+  #about {padding-top:50px;background-color: #eeeeee;;}
+  
+  
+ .jumbotron {
+  /*background:url('../images/jumbBack.png') no-repeat center center !important;*/
+  
+  height:398px;
+  overflow:none;
+  
+}
+
+.jumbotron h1{
+	margin-top:50px;
+	color:#452E67;
+}
+
+.jumbotron p{
+	color:black;
+}
+.jumbotron .btn
+{
+  background-color: #9B9D9E;
+  margin-top:50px;
+}
+
+/* purple color: #452E67
+*  Green color: #6C9159
+*grey: #e3e3e3; #eeeeee;
+*/
+
+.btnform{
+	margin-bottom:20px;
+}
+
+#contactform .btn:hover {
+  background: rgba(9,8,77,0.7);
+}
+
+.navbar-default
+{
+	margin-right:-15px;
+	margin-left:-15px;
+}
+
+
+
+.em-text{
+	color:#1caa98 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+        text-align: center;
+		color: #452E67;
+    }
+	
+.navcss{
+	margin-right: 150px;
+	margin-left: 150px;
+	
+}

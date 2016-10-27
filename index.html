@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Landmark Logistics</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <!--Include Bootstrap-->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  
+   <!--CSS Style include-->
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+  
+  <!--Google Maps API-->
+  
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initMap"> </script>-->
+  <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAoGPVPjmRx9yP_FNW5dLxKsSVuQh2cc6Q"> </script> 
+  
+</head>
+
+
+
+<!--The logo Area-->
+  <div class="container">
+	<div class = "row">
+		<div class="col-md-12">
+		  <div class="collapse navbar-collapse">
+			<a href="#"><img src="images/header.png"></a>
+		  </div>
+		</div>
+	</div>
+  </div>
+  
+  <!--Menu Area-->
+<div class="container">
+	<div class="row">
+	<div class="col-md-12">
+	<nav class="navbar navbar-default" data-spy="affix" data-offset-top="50">	  
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			  <span class="sr-only"> Toggle Navigation </span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+		  </button>
+		 <a class="navbar-brand" href="#">LandMark Logistics</a>
+		</div>
+	
+	    <div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav">
+			
+				<!-- Home-->
+			  <li><a href="#home" data-toggle="collapse" data-target="#myNavbar.in">Home</a></li>
+			  
+			  <!-- Services Provided-->
+			  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li><a href="#clrforw " data-toggle="collapse" data-target="#myNavbar.in">Clearing & Forwarding</a></li>
+				  <li><a href="#transit" data-toggle="collapse" data-target="#myNavbar.in">Cross-border Transit</a></li>
+				  <li><a href="#others" data-toggle="collapse" data-target="#myNavbar.in">Others</a></li>
+				</ul>
+			  </li>
+			  
+			  <!-- Contact -->
+			   <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Contact Us <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li><a href="#contactus" data-toggle="collapse" data-target="#myNavbar.in">Contact</a></li>
+				  <li><a href="#location" data-toggle="collapse" data-target="#myNavbar.in">Location</a></li>
+				</ul>
+			  </li>
+			  
+			  <!-- About us-->
+			  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li><a href="#aboutus " data-toggle="collapse" data-target="#myNavbar.in">History</a></li>
+				  <li><a href="#aboutus" data-toggle="collapse" data-target="#myNavbar.in">Mission</a></li>
+				  <li><a href="#aboutus" data-toggle="collapse" data-target="#myNavbar.in">Vision</a></li>
+				</ul>
+			  </li>		 
+		</ul>
+	  </div>	
+	</nav>
+	</div>
+	</div>
+  </div>
+
+   <!--Body of the website-->
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <!-- Home Section -->
+<div id = "home" class="container">
+  <div class="jumbotron ">
+    <h1>Imports & Exports Services</h1>
+    <h2>We offer custom clearance, cross border services, and forwarding services. Check out more services below!!!</h2>
+	<p class = "pull-right"><a class="btn btn-primary btn-lg" href="#services" role="button">Learn more &raquo;</a></p>
+  </div>
+</div>
+
+<!-- START of the services section -->
+<section>
+<div id = "services" class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h1> Services </h1>
+		</div>
+	</div>
+</div>
+</section>
+
+
+ <div id="clrforw" class="container">    
+      <div class=" featurette">
+        <div class="col-md-7 ">
+          <h2 class="featurette-heading">Clearing & Forwarding</h2>
+		 <div class = "lead">
+		  <p> services we offer include:</p>
+			<li> Customs clearing </li>
+			<li> International forwarding </li>
+			<li> Local and over-border Regional transport </li>
+			<li> Warehousing arrangement </li>
+			<li> Customs examination </li>
+			<li> Air freight services </li>
+		</div>
+        </div>
+        <div class="col-md-5 ">
+          <img class="featurette-image img-responsive center-block" src="./images/slide2.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+</div>
+
+      <hr class="featurette-divider">
+
+<div  id="transit"  class="container">
+      <div class="featurette">
+        <div class="col-md-7 col-md-push-5 ">
+          <h2 class="featurette-heading">Cross-Border Transit </h2>
+          <p class="lead">Landmark logistics Company provides trans-border Air, road and Rail transit services within Eastern Africa and Great Lakes Region to suit client's unique requirements. </p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="./images/transit.png" alt="Generic placeholder image">
+        </div>
+      </div>
+</div>
+      <hr class="featurette-divider">
+
+<div class="container">
+      <div id="others" class="row featurette" >
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Other Services</h2>
+		  
+		  <ul class="list-group">
+		  <li class="list-group-item list-group-item">Documentation Processing</li>
+		  <li class="list-group-item list-group-item">Export Customs Clearance</li>
+		  <li class="list-group-item list-group-item">Travel arrangements</li>
+		 <li class="list-group-item list-group-item">Tax consultancy</li>
+		</ul>
+      
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="./images/warehouse.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+</div>
+
+<!-- /END THE FEATURETTES -->
+
+<!-- Contact Us -->
+
+<div id = "contactus" class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h1> Contact us </h1>
+		</div>
+	</div>
+</div>
+
+<div  id="contactInfo" class = " container ">
+	<div class = "row">
+		<div class = "col-md-6">
+			<form >
+			  <div class="form-group">
+				<label >Name</label>
+				<input type="text" name = "yourname" class="form-control" placeholder="Enter Name">
+			  </div>
+			  
+			  <div class="form-group">
+				<label >Email address</label>
+				<input type="email" name= "email" class="form-control" placeholder="Enter Email">
+			  </div>
+			 
+			 <div class="form-group">
+				<label >Subject</label>
+				<input type="text" name= "subject" class="form-control" placeholder="Enter Subject">
+			  </div>
+			  
+			 <div class="form-group">
+				<label >Message</label>
+				<textarea class = "form-control" name = "message" placeholder = "Enter Message">
+				</textarea>
+			  </div>
+			 
+			  <button action="php/contactForm.php" method="post" type="submit" class="btn btn-default btnform">Submit</button>
+			</form>
+		</div>
+
+		<div class="col-md-6 "> <h1> Contacts </h1> 
+		
+		<ul class="list-group">
+		  <li class="list-group-item">+250785206157/+25 0788465059 </li>
+		  <li class="list-group-item">landmarklogisticsrwanda@gmail.com</li>
+		  <li class="list-group-item">Mon-Fri: 08:00 AM - 05:00 PM</li>
+		 
+		</ul>
+			
+		</div>  								
+		
+	</div>
+</div>
+
+<hr class="featurette-divider">
+
+<div  id="location" class = " container ">
+	<div class = "row">
+		  <div class="col-md-4 "> 
+				<h1> Address </h1>
+				<ul class="list-group">
+				  <li class="list-group-item">Kigali Rwanda</li>
+				  <li class="list-group-item">1507 P.O.BOX</li>
+				  <li class="list-group-item">Gikondo-Magerwa</li>
+				   
+				</ul> 
+			</div>
+		  
+										
+		<div id = "location" class = "col-md-8">
+			<script>
+				var myCenter=new google.maps.LatLng(-1.9734918,30.084473300000013);
+
+				function initialize()
+				{
+				var mapProp = {
+				  center:myCenter,
+				  zoom:15,
+				  mapTypeId:google.maps.MapTypeId.HYBRID
+				  };
+
+				var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+				 
+				var marker=new google.maps.Marker({
+				  position:myCenter,
+				  });
+
+				marker.setMap(map);
+				var infowindow = new google.maps.InfoWindow({
+				  content:"LandMark Logistics Ltd."
+				  });
+
+				infowindow.open(map,marker);
+				}
+
+				google.maps.event.addDomListener(window, 'load', initialize);
+			</script>
+			<div class="img-responsive center-block" id="googleMap" style="width:700px;height:380px;"></div>
+		</div>
+	</div>
+</div>
+
+
+<!-- About Us title -->
+
+<div id = "aboutus" class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h1> About us </h1>
+		</div>
+	</div>
+</div>
+
+<!-- History -->
+<div id = "about" class="container table-responsive">
+  
+  <div class="col-sm-4 "> 
+  <h1> History </h1>
+    <p> Our objective is to provide reliable clearing and forwarding services. Whenever a client comes to 
+	us we are confident that we have the answer he/she wants to hear. Customer satisfaction is our primary 
+	concern, and has been since the beginning.
+	</p>
+  
+  </div>
+  
+  <div  class="col-sm-4 "> 
+		<h1> Mission </h1>
+ 
+<p>To offer expedient, efficient and cost effective clearing & forwading services, so as to not only meet but at all times exceed our client expectations. </p>
+  </div>
+  
+  <div class="col-sm-4 ">
+	  <h1> Vision </h1>
+ <p>To be considered the Clearing & Forwading Agent of choice in the Eastern and Central Africa region.</p>
+   </div>
+ 
+</div>
+
+
+<hr class="featurette-divider">
+
+<div class = "container">
+	<div class="navbar navbar-default " role="navigation">
+	<div class="navbar-text pull-left"> Copyright (c) 2016 Landmark Logistics Ltd. (R)</div>
+</div>
+</div>
+
+</body>
+</html>
+
